@@ -1,0 +1,29 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Model checkpoints & large weights (keep out of Git)
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# TensorBoard logs & local outputs
+logs/
+runs/
+events.out.tfevents.*
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS & IDE files
+.DS_Store
+.vscode/
+.idea/
